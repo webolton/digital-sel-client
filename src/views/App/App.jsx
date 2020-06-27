@@ -1,16 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Container from 'react-bootstrap/Container'
-import Button from 'react-bootstrap/Button'
+import Routes from 'config/Routes'
 
 const App = () => (
-  <Container className="p-3">
-    <Jumbotron>
-      <h1 className="header">The Digital SEL</h1>
-      <Button>Hi!!!</Button>
-    </Jumbotron>
-  </Container>
-)
+  <div>
+    <Routes />
+  </div>
+);
 
-export default App
+export default App;
