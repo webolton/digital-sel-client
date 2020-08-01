@@ -2,3 +2,4 @@
 **/*.svg
 **/*.woff
 **/*.woff2
+src/assets/images/*
