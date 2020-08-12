@@ -1,6 +1,10 @@
 export SHELL := /bin/bash
 
-.PHONY: lint
+# Development tasks
+.PHONY: run-dev
+run-dev:
+	npm start
 
+.PHONY: lint
 lint-all:
 	eslint "src/**/*" --fix

@@ -17,6 +17,17 @@ was a software engineer) see the [DigitalSEL.org](http://digitalsel.org/).
 If you want to contribute, need help, or have any questions, feel free to reach out to
 the maintainer via Twitter: [@william_ellet](https://twitter.com/william_ellet).
 
-## Prerequisites
+## Development
+
+### Prerequisites
 
 - Node 12.18.0
+- npm 6.14.5
+
+### Run the development server
+
+`make run-dev`
+
+### Lint your code
+
+`make lint-all`
