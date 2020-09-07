@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Container from 'react-bootstrap/Container'
-import Button from 'react-bootstrap/Button'
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 
 const App = () => (
   <Container className="p-3">
@@ -11,6 +11,6 @@ const App = () => (
       <Button>Hi!!!</Button>
     </Jumbotron>
   </Container>
-)
+);
 
-export default App
+export default App;
