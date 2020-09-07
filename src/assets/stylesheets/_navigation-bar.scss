@@ -1,0 +1,22 @@
+.nav-brand-complete {
+  display: none;
+  @media (min-width: 768px) {
+    display: inline;
+    letter-spacing: 0.2rem;
+  }
+}
+
+.nav-brand-truncated {
+  display: inline;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.navbar-logo {
+  margin-right: 0.5rem;
+  @media (min-width: 768px) {
+    width: 70px;
+    height: 70px;
+  }
+}
