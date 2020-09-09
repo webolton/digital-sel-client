@@ -1,9 +1,12 @@
 import React from 'react';
 
+// Bootstrap components
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
+// Custom components
+import Footer from 'components/Footer';
 import NavigationBar from 'components/NavigationBar';
 
 const App = () => (
@@ -17,6 +20,7 @@ const App = () => (
         <Button>Hi!!!</Button>
       </Jumbotron>
     </Container>
+    <Footer />
   </div>
 );
 
