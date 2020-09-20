@@ -1,0 +1,39 @@
+.welcome {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-jumbotron-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.welcome-jumbotron h1 {
+  @media (min-width: 768px) {
+    letter-spacing: 0.2rem;
+  }
+}
+
+.intro-royal-st-image {
+  width: 8rem;
+}
+
+.intro-praying-st-image {
+  width: 8rem;
+  margin-top: 1rem;
+}
+
+.intro-bishop-image {
+  width: 13rem;
+  margin-top: 4rem;
+}
+
+.sel-welcome-text {
+  @media (max-width: 992px) {
+    margin-left: 1rem;
+  }
+  @media (max-width: 768px) {
+    margin-left: 0rem;
+  }
+}
