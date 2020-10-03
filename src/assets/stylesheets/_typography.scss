@@ -33,3 +33,43 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Junicode';
+    src: url('../fonts/Junicode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Junicode Bold';
+    src: url('../fonts/Junicode-Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Junicode Bold Italic';
+    src: url('../fonts/Junicode-BoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Junicode Italic';
+    src: url('../fonts/ObjectSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Foulis Greek';
+    src: url('../fonts/FoulisGreek.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
