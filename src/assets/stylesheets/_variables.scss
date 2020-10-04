@@ -79,6 +79,7 @@ $transition-collapse: height 0.35s ease;
 // Fonts
 $font-family-sans-serif: 'Object Sans', Roboto, 'Helvetica Neue', Arial, sans-serif;
 $font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+$font-family-serif: 'Junicode', Georgia, "Times New Roman", Times, serif;
 $font-family-base: $font-family-sans-serif;
 $font-size-base: 1.1rem;
 $font-size-lg: 1.25rem;
@@ -345,9 +346,9 @@ $btn-transition: all 0.15s ease-in-out;
 // $pagination-disabled-border-color: #ddd;
 //
 //
-// // Jumbotron
-// $jumbotron-padding: 2rem;
-// $jumbotron-bg: $gray-200;
+// Jumbotron
+$jumbotron-padding: 2rem;
+$jumbotron-bg: $gray-200;
 //
 //
 // // Cards
@@ -534,7 +535,7 @@ $btn-transition: all 0.15s ease-in-out;
 // // Options
 // $enable-rounded: true;
 // $enable-shadows: false;
-// $enable-gradients: false;
+// $enable-gradients: true;
 // $enable-transitions: true;
 // $enable-hover-media-query: false;
 // $enable-grid-classes: true;
