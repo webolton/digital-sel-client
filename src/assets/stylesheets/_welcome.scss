@@ -9,24 +9,37 @@
   padding-bottom: 2rem;
 }
 
+.welcome-jumbotron {
+  padding: 1rem 1rem 1rem 1rem;
+  background: none;
+}
+
 .welcome-jumbotron h1 {
   @media (min-width: 768px) {
     letter-spacing: 0.2rem;
+    margin-bottom: 0.8em;
+  }
+}
+
+.welcome-jumbotron h3 {
+  @media (min-width: 768px) {
+    margin-bottom: 3rem;
   }
 }
 
 .intro-royal-st-image {
   width: 8rem;
+  margin-top: 5rem;
 }
 
 .intro-praying-st-image {
   width: 8rem;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
 }
 
-.intro-bishop-image {
-  width: 13rem;
-  margin-top: 4rem;
+.intro-bird-image {
+  width: 8rem;
+  margin-top: 0.8rem;
 }
 
 .sel-welcome-text {
@@ -36,4 +49,8 @@
   @media (max-width: 768px) {
     margin-left: 0rem;
   }
+}
+
+.welcome-paragraph {
+  font-size: 1.3rem;
 }

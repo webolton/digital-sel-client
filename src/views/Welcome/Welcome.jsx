@@ -9,17 +9,16 @@ import Col from 'react-bootstrap/Col';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
 // Images
-import bishop from 'assets/images/bishop.svg';
 import royalSaint from 'assets/images/royal-saint.svg';
 import prayingSaint from 'assets/images/praying-saint.svg';
+import bird from 'assets/images/bird.svg';
 
 const Welcome = () => {
-  const isTablet = useMediaQuery({ query: '(min-width: 768px)' });
   const isDesktop = useMediaQuery({ query: '(min-width: 992px)' });
 
   const textColumnClass = (screenMaxed) => {
     if (screenMaxed) {
-      return 9;
+      return 10;
     }
     return 'auto';
   };
@@ -30,7 +29,7 @@ const Welcome = () => {
         <Jumbotron fluid className="welcome-jumbotron">
           <Container>
             <Row className="welcome-row flex-nowrap">
-              <Col xs={textColumnClass(isTablet)}>
+              <Col xs={textColumnClass(isDesktop)}>
                 <h1>
                   Introduction
                 </h1>
@@ -50,38 +49,41 @@ const Welcome = () => {
                   at the same time.
                 </p>
               </Col>
-              { isTablet
-              && (
-              <Col xs={2}>
-                <img
-                  alt="A woodcutting print of a royal saint"
-                  src={royalSaint}
-                  className="intro-royal-st-image"
-                />
-              </Col>
-              )}
+              { isDesktop
+                && (
+                  <Col xs={2}>
+                    <img
+                      alt="A woodcutting print of a royal saint"
+                      src={bird}
+                      className="intro-bird-image"
+                    />
+                  </Col>
+                )}
             </Row>
-            <hr />
+          </Container>
+        </Jumbotron>
+        <Jumbotron fluid className="welcome-jumbotron">
+          <Container>
             <Row className="flex-nowrap">
-              { isTablet
-              && (
-              <Col xs={2}>
-                <img
-                  alt="A woodcutting print of a praying saint"
-                  src={prayingSaint}
-                  className="intro-praying-st-image"
-                />
-              </Col>
-              )}
-              <Col xs={textColumnClass(isTablet)} className="sel-welcome-text">
-                <h4>
+              { isDesktop
+                && (
+                  <Col xs={2}>
+                    <img
+                      alt="A woodcutting print of a praying saint"
+                      src={prayingSaint}
+                      className="intro-praying-st-image"
+                    />
+                  </Col>
+                )}
+              <Col xs={textColumnClass(isDesktop)} className="sel-welcome-text">
+                <h3>
                   The
                   {' '}
                   <i>South English Legendary</i>
                   {' '}
                   and Textual Variation
-                </h4>
-                <p>
+                </h3>
+                <p className="welcome-paragraph">
                   The
                   {' '}
                   <a
@@ -115,17 +117,20 @@ const Welcome = () => {
                 </p>
               </Col>
             </Row>
-            <hr />
+          </Container>
+        </Jumbotron>
+        <Jumbotron fluid className="welcome-jumbotron">
+          <Container>
             <Row className="flex-nowrap">
               <Col xs={textColumnClass(isDesktop)}>
-                <h4>
+                <h3>
                   The
                   {' '}
                   <i>Digital SEL</i>
                   {' '}
                   and Developing a New Critical Edition
-                </h4>
-                <p>
+                </h3>
+                <p className="welcome-paragraph">
                   {' '}
                   The intent of the
                   {' '}
@@ -141,7 +146,7 @@ const Welcome = () => {
                   a &ldquo;base&rdquo; or &ldquo;best&rdquo; version of a text with variations noted
                   in an apparatus.
                 </p>
-                <p>
+                <p className="welcome-paragraph">
                   This version of the site represents a complete re-write / rework of the first
                   conception of the project, which is still available at the
                   {' '}
@@ -152,7 +157,7 @@ const Welcome = () => {
                   The original version of the site was my first programming project, and this
                   version is much more in line with modern web software development.
                 </p>
-                <p>
+                <p className="welcome-paragraph">
                   This iteration of the project is in active development, though I have neglected
                   blogging about my progress recently. Additional
                   {' '}
@@ -171,7 +176,7 @@ const Welcome = () => {
                   </a>
                   .
                 </p>
-                <p>
+                <p className="welcome-paragraph">
                   If you are interested in contributing to the project in any way, feel free to
                   reach out to me on
                   {' '}
@@ -182,18 +187,19 @@ const Welcome = () => {
                   >
                     Twitter
                   </a>
+                  .
                 </p>
               </Col>
               { isDesktop
-              && (
-              <Col xs={2}>
-                <img
-                  alt="A woodcutting print of a seated bishop saint"
-                  src={bishop}
-                  className="intro-bishop-image"
-                />
-              </Col>
-              )}
+                && (
+                  <Col xs={2}>
+                    <img
+                      alt="A woodcutting print of a seated bishop saint"
+                      src={royalSaint}
+                      className="intro-royal-st-image"
+                    />
+                  </Col>
+                )}
             </Row>
           </Container>
         </Jumbotron>
