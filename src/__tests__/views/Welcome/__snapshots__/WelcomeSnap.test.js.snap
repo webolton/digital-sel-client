@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Welcome page correctly 1`] = `
+<div
+  className="welcome container-fluid"
+>
+  <div
+    className="welcome-jumbotron-container container"
+  >
+    <div
+      className="welcome-jumbotron jumbotron jumbotron-fluid"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="welcome-row flex-nowrap row"
+        >
+          <div
+            className="col-auto"
+          >
+            <h1>
+              Introduction
+            </h1>
+            <p
+              className="welcome-paragraph text-left"
+            >
+              The
+               
+              <i>
+                Digital South English Legendary
+              </i>
+               
+              (
+              <i>
+                Digital SEL
+              </i>
+              ) is a web-based, interactive application that will allow readers to view multiple versions of individual texts from the
+               
+              <i>
+                South English Legendary
+              </i>
+               
+              at the same time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="welcome-jumbotron jumbotron jumbotron-fluid"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="flex-nowrap row"
+        >
+          <div
+            className="sel-welcome-text col-auto"
+          >
+            <h3>
+              The
+               
+              <i>
+                South English Legendary
+              </i>
+               
+              and Textual Variation
+            </h3>
+            <p
+              className="welcome-paragraph"
+            >
+              The
+               
+              <a
+                href="http://en.wikipedia.org/wiki/South_English_Legendary"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i>
+                  South English Legendary
+                </i>
+              </a>
+               
+              is a large collection of Middle English verse saints’ lives and related religious literature, originally composed in the late thirteenth century. The legendary was later revised and augmented, and its various forms enjoyed widespread readership, being copied until the fifteenth century. Today, the
+               
+              <i>
+                SEL
+              </i>
+               
+              survives in part or whole in more than 60 manuscripts. The legendary’s popularity and the readiness of later poets and scribes to revise and supplement the collection mean that there is a large degree of textual variation between individual witnesses of the
+               
+              <i>
+                SEL
+              </i>
+              . Despite a great deal of work by earlier scholars, the
+               
+              <i>
+                SEL 
+              </i>
+               
+              has never been edited in whole and the editions that have appeared are typical of printed editions in that they present a base text with variations noted in a critical apparatus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="welcome-jumbotron jumbotron jumbotron-fluid"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="flex-nowrap row"
+        >
+          <div
+            className="col-auto"
+          >
+            <h3>
+              The
+               
+              <i>
+                Digital SEL
+              </i>
+               
+              and Developing a New Critical Edition
+            </h3>
+            <p
+              className="welcome-paragraph"
+            >
+               
+              The intent of the
+               
+              <i>
+                Digital SEL
+              </i>
+               
+              is to use a web-based application to create a kind of digital variorum edition of the text, which will allow users to view multiple versions of different
+               
+              <i>
+                SEL
+              </i>
+               
+              texts at the same time. The ultimate goal of the project is to provide a model of digital publishing that destabilizes the kind of editorial practice that imagines a “base” or “best” version of a text with variations noted in an apparatus.
+            </p>
+            <p
+              className="welcome-paragraph"
+            >
+              This version of the site represents a complete re-write / rework of the first conception of the project, which is still available at the
+               
+              <a
+                href="http://digitalsel.org"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                digitalsel.org
+              </a>
+              . The original version of the site was my first programming project, and this version is much more in line with modern web software development.
+            </p>
+            <p
+              className="welcome-paragraph"
+            >
+              This iteration of the project is in active development, though I have neglected blogging about my progress recently. Additional
+               
+              <a
+                href="http://blog.digitalsel.org"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                blog posts
+              </a>
+               
+              are forthcoming, and all of my progress is available at
+               
+              <a
+                href="https://github.com/webolton"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              .
+            </p>
+            <p
+              className="welcome-paragraph"
+            >
+              If you are interested in contributing to the project in any way, feel free to reach out to me on
+               
+              <a
+                href="https://twitter.com/william_ellet"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Twitter
+              </a>
+              .
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
