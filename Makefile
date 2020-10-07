@@ -11,7 +11,7 @@ lint:
 
 .PHONY: test
 test:
-	npm run test
+	npm run test -- --coverage
 
 .PHONY: test-u
 test-u:
