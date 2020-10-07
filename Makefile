@@ -12,3 +12,7 @@ lint:
 .PHONY: test
 test:
 	npm run test
+
+.PHONY: test-u
+test-u:
+	npm test -- -u

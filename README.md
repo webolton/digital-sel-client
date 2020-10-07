@@ -35,3 +35,7 @@ the maintainer via Twitter: [@william_ellet](https://twitter.com/william_ellet).
 ### Run the tests
 
 `make test`
+
+Update the snapshot tests:
+
+`make test-u`
