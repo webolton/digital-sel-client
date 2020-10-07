@@ -26,8 +26,16 @@ the maintainer via Twitter: [@william_ellet](https://twitter.com/william_ellet).
 
 ### Run the development server
 
-`make run-dev`
+`make run`
 
 ### Lint your code
 
-`make lint-all`
+`make lint`
+
+### Run the tests
+
+`make test`
+
+Update the snapshot tests:
+
+`make test-u`

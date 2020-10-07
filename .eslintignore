@@ -4,3 +4,5 @@
 **/*.svg
 **/*.woff
 **/*.woff2
+
+src/coverage/*

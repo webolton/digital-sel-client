@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the NavigationBar correctly 1`] = `
+<header>
+  <nav
+    className="navbar navbar-expand-md navbar-light bg-white"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+    >
+      <img
+        alt="The Digital SEL Logo"
+        className="d-inline-block navbar-logo"
+        src="test-file-stub"
+      />
+       
+      <span
+        className="nav-brand-complete"
+      >
+        The Digital South English Legendary
+      </span>
+       
+      <span
+        className="nav-brand-truncated"
+      >
+        The Digital SEL
+      </span>
+       
+    </a>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        className="ml-auto navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <a
+          className="nav-link"
+          data-rb-event-key="#dashboard"
+          href="#dashboard"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+        >
+          Dashboard
+        </a>
+        <a
+          className="nav-link"
+          data-rb-event-key="#about"
+          href="#about"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+        >
+          About
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+`;
