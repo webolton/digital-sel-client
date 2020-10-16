@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Welcome page correctly 1`] = `
+<div>
+  <header>
+    <nav
+      className="navbar navbar-expand-md navbar-light bg-white"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+      >
+        <img
+          alt="The Digital SEL Logo"
+          className="d-inline-block navbar-logo"
+          src="test-file-stub"
+        />
+         
+        <span
+          className="nav-brand-complete"
+        >
+          The Digital South English Legendary
+        </span>
+         
+        <span
+          className="nav-brand-truncated"
+        >
+          The Digital SEL
+        </span>
+         
+      </a>
+      <button
+        aria-controls="basic-navbar-nav"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="basic-navbar-nav"
+      >
+        <div
+          className="ml-auto navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="nav-link"
+            data-rb-event-key="#dashboard"
+            href="#dashboard"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Dashboard
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="#about"
+            href="#about"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            About
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div
+    className="welcome container-fluid"
+  >
+    <div
+      className="welcome-jumbotron-container container"
+    >
+      <div
+        className="welcome-jumbotron jumbotron jumbotron-fluid"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="welcome-row flex-nowrap row"
+          >
+            <div
+              className="col-auto"
+            >
+              <h1>
+                Introduction
+              </h1>
+              <p
+                className="welcome-paragraph text-left"
+              >
+                The
+                 
+                <i>
+                  Digital South English Legendary
+                </i>
+                 
+                (
+                <i>
+                  Digital SEL
+                </i>
+                ) is a web-based, interactive application that will allow readers to view multiple versions of individual texts from the
+                 
+                <i>
+                  South English Legendary
+                </i>
+                 
+                at the same time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="welcome-jumbotron jumbotron jumbotron-fluid"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="flex-nowrap row"
+          >
+            <div
+              className="sel-welcome-text col-auto"
+            >
+              <h3>
+                The
+                 
+                <i>
+                  South English Legendary
+                </i>
+                 
+                and Textual Variation
+              </h3>
+              <p
+                className="welcome-paragraph"
+              >
+                The
+                 
+                <a
+                  href="http://en.wikipedia.org/wiki/South_English_Legendary"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i>
+                    South English Legendary
+                  </i>
+                </a>
+                 
+                is a large collection of Middle English verse saints’ lives and related religious literature, originally composed in the late thirteenth century. The legendary was later revised and augmented, and its various forms enjoyed widespread readership, being copied until the fifteenth century. Today, the
+                 
+                <i>
+                  SEL
+                </i>
+                 
+                survives in part or whole in more than 60 manuscripts. The legendary’s popularity and the readiness of later poets and scribes to revise and supplement the collection mean that there is a large degree of textual variation between individual witnesses of the
+                 
+                <i>
+                  SEL
+                </i>
+                . Despite a great deal of work by earlier scholars, the
+                 
+                <i>
+                  SEL 
+                </i>
+                 
+                has never been edited in whole and the editions that have appeared are typical of printed editions in that they present a base text with variations noted in a critical apparatus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="welcome-jumbotron jumbotron jumbotron-fluid"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="flex-nowrap row"
+          >
+            <div
+              className="col-auto"
+            >
+              <h3>
+                The
+                 
+                <i>
+                  Digital SEL
+                </i>
+                 
+                and Developing a New Critical Edition
+              </h3>
+              <p
+                className="welcome-paragraph"
+              >
+                 
+                The intent of the
+                 
+                <i>
+                  Digital SEL
+                </i>
+                 
+                is to use a web-based application to create a kind of digital variorum edition of the text, which will allow users to view multiple versions of different
+                 
+                <i>
+                  SEL
+                </i>
+                 
+                texts at the same time. The ultimate goal of the project is to provide a model of digital publishing that destabilizes the kind of editorial practice that imagines a “base” or “best” version of a text with variations noted in an apparatus.
+              </p>
+              <p
+                className="welcome-paragraph"
+              >
+                This version of the site represents a complete re-write / rework of the first conception of the project, which is still available at the
+                 
+                <a
+                  href="http://digitalsel.org"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  digitalsel.org
+                </a>
+                . The original version of the site was my first programming project, and this version is much more in line with modern web software development.
+              </p>
+              <p
+                className="welcome-paragraph"
+              >
+                This iteration of the project is in active development, though I have neglected blogging about my progress recently. Additional
+                 
+                <a
+                  href="http://blog.digitalsel.org"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  blog posts
+                </a>
+                 
+                are forthcoming, and all of my progress is available at
+                 
+                <a
+                  href="https://github.com/webolton"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+                .
+              </p>
+              <p
+                className="welcome-paragraph"
+              >
+                If you are interested in contributing to the project in any way, feel free to reach out to me on
+                 
+                <a
+                  href="https://twitter.com/william_ellet"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Twitter
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div
+      className="h-100 font-small text-light container-fluid"
+    >
+      <div
+        className="align-items-center footer-text-wrapper row"
+      >
+        <div
+          className="text-center mx-auto col-md-3"
+        >
+          <a
+            className="text-light"
+            href="http://william-bolton.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            About the Principal Investigator and Engineer
+          </a>
+        </div>
+        <div
+          className="text-center mx-auto col-md-3"
+        >
+          <a
+            className="text-light"
+            href="http://blog.digitalsel.org"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Blog
+          </a>
+        </div>
+        <div
+          className="text-center mx-auto col-md-3"
+        >
+          Made with
+           
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-heart fa-w-16 "
+            data-icon="heart"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+           
+          in South Philadelphia.
+          <br />
+           
+          ©
+           
+          2020
+          , William E. Bolton.
+          <br />
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
